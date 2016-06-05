@@ -6,6 +6,7 @@ from sqlalchemy import Column, Integer, String
 from sqlalchemy import MetaData
 
 import socket
+import struct
 
 Base = declarative_base()
 
